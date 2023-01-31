@@ -2118,3 +2118,8 @@ span.error {
 span.cover{
   display: none;
 }
+@media screen and (max-width:600px) {
+  .unslate_co--site-wrap{
+    height: 100px;
+  }
+}
