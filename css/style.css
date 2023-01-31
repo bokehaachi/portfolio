@@ -2115,3 +2115,6 @@ span.error {
   left: 0;
   box-sizing: border-box;
 }
+span.cover{
+  display: none;
+}
