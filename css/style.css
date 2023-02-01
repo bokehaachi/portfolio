@@ -2115,11 +2115,21 @@ span.error {
   left: 0;
   box-sizing: border-box;
 }
-span.cover{
+/* span.cover{
   display: none;
-}
-@media screen and (max-width:600px) {
+} */
+ @media screen and (max-width:600px) {
   .unslate_co--site-wrap{
     height: 100px;
   }
+  .btn-cover span.cover{
+    display: none;
+  }
+} 
+.portfolio-wrapper{
+  width: 100%;
+
+
+  overflow: hidden;
+ overflow-y:visible;
 }
